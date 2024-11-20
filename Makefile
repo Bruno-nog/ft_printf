@@ -6,7 +6,7 @@
 #    By: brunogue <brunogue@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/08 16:40:21 by brunogue          #+#    #+#              #
-#    Updated: 2024/11/15 14:44:31 by brunogue         ###   ########.fr        #
+#    Updated: 2024/11/20 13:12:00 by brunogue         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 # Arquivos fontes e objetos
-MANDATORY_SRC = ft_printf.c
+MANDATORY_SRC = ft_printf.c ft_printf_utils.c
 MANDATORY_OBJ = $(MANDATORY_SRC:%.c=%.o)
 
 # Regra principal: compila tudo
